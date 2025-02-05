@@ -1,0 +1,63 @@
+/* ENCABEZADO */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #e9ecef;
+}
+
+.header {
+  background-color: #0056b3;
+  padding: 15px 0;
+}
+
+.logo-imp {
+  height: 90px;
+  display: block;
+}
+
+.header .logo .slogan {
+  color: #e0e0e0;
+  font-size: 0.9rem;
+}
+
+.header .menu a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px 10px;
+}
+
+.header .menu a.active {
+  background: white;
+  color: #0056b3;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* SECCIÓN INFORMACIÓN CON OVERFLOW */
+.info-section {
+  padding: 40px 0;
+}
+
+.info-content {
+  max-height: 300px;
+  overflow-y: auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* PIE DE PÁGINA */
+.footer {
+  background-color: #0056b3;
+  color: white;
+  padding: 15px 0;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 0.9rem;
+}
